@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
 :root{--bg:#F3F5F9;--surface:#fff;--ink:#121B33;--muted:#55607A;--line:#D9DFEA;--accent:#2F4BFF;--on-accent:#fff;--hi:#FFD84D;--code:#0F1424;--code-ink:#C9D3F5;
---head:var(--font-head),'Segoe UI',system-ui,sans-serif;--body:var(--font-body),'Segoe UI',system-ui,sans-serif;color-scheme:light;
+--head:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;--body:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;color-scheme:light;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1424;--surface:#171E33;--ink:#EAEEF8;--muted:#9AA5C0;--line:#2A3350;--accent:#8394FF;--on-accent:#0F1424;--hi:#FFD84D;--code:#0A0E1B;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0F1424;--surface:#171E33;--ink:#EAEEF8;--muted:#9AA5C0;--line:#2A3350;--accent:#8394FF;--on-accent:#0F1424;--code:#0A0E1B;color-scheme:dark}
