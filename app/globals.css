@@ -17,6 +17,7 @@ p{margin:0}
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
 section{padding:88px 0}
 .lead{color:var(--muted);max-width:60ch;margin-top:14px}
+.eyebrow{display:inline-block;font:700 .78rem var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
 :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
 /* header */
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
