@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Mahesh Nagar | Frontend Developer & Website Designer',
-  description: 'Frontend developer building fast React and Next.js interfaces, plus monthly website care from $29.',
+  description: 'Frontend developer and website designer building modern, responsive, and fast React and Next.js web applications.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

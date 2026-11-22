@@ -42,12 +42,6 @@ export const jobs = [
   { when: '2023 – Present · On-site', title: 'Web Designer & Frontend Developer', intro: 'GMTA Software Solution Pvt. Ltd.', points: ['Designed and developed responsive websites using HTML, CSS, Bootstrap and JavaScript.','Developed modern and user-friendly website interfaces.', 'Worked with frontend technologies including React.js and Tailwind CSS.', 'Maintained existing websites and developed new website pages.', 'Optimized website performance, responsiveness and user experience.', 'Implemented UI improvements and fixed frontend issues.'] },
 ]
 
-export const plans = [
-  { name: 'Starter Care', price: 29, desc: 'For portfolios, blogs and small business sites.', items: ['Up to 2 content or image updates','Monthly security and broken-link check','Email and WhatsApp support','48-hour turnaround'] },
-  { name: 'Business Pro', price: 59, popular: true, desc: 'For active businesses, clinics and stores.', items: ['Up to 5 content, price or banner updates','UI bug fixes and responsive adjustments','Monthly speed and Core Web Vitals review','24-hour turnaround for urgent tweaks'] },
-  { name: 'Growth & Scale', price: 99, desc: 'For dynamic sites and stores with frequent changes.', items: ['Up to 10 updates, including code and new sections','One new landing page or redesign per month','API and webhook troubleshooting','Same-day priority and monthly report'] },
-]
-
 export const why = [
   ['Direct developer contact','No account managers and no ticket queues. You talk to the person writing your code.'],
   ['Clear fixed-scope pricing','You know the full cost upfront, with no surprise bills or hourly overages.'],
@@ -56,15 +50,8 @@ export const why = [
   ['Milestone-based delivery','Work is delivered in stages, and the final payment is released only after your review.'],
 ]
 
-export const testimonials = [
-  ['Rohan rebuilt our landing pages in a week. Load time dropped from 5 seconds to under 2, and our sign-ups went up right away.','Alex Turner','Founder · United Kingdom'],
-  ['Much better than working with an agency. No middlemen, clear updates and every change was right the first time.','Maria Gomez','Operations Director · Spain'],
-  ['The monthly care plan is the best investment we made for our website. Banners, prices and fixes are all handled quickly.','Sarah Miller','E-commerce Manager · United States'],
-]
-
 export const faqs = [
   ['Why hire you instead of an agency?','You speak directly to the developer doing the work. That means faster delivery, clear pricing, no communication gaps and full accountability.'],
-  ['How does the monthly care plan work?','Pick a plan and send your update requests by email or WhatsApp. I complete them within the plan’s turnaround time, run a monthly health check and send you a short summary. You can pause or cancel whenever you like.'],
   ['Can you build a full frontend from scratch?','Yes. I build complete React and Next.js frontends from Figma designs or from your requirements, and I can connect them to your existing APIs or backend.'],
   ['What about time zones and languages?','I work remotely with clients in the US, UK, Europe and India. I overlap with your working hours and reply to most messages within one hour.'],
   ['Do you sign NDAs?','Yes, I’m happy to sign an NDA before we discuss your project details.'],

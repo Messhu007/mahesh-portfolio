@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 import { site } from '@/lib/data'
 
-const links = [['services','Services'],['work','Projects'],['experience','Experience'],['pricing','Care plans'],['why','Why me'],['testimonials','Testimonials'],['faq','FAQ']]
+const links = [['services','Services'],['work','Projects'],['experience','Experience'],['why','Why me'],['faq','FAQ']]
 
 export default function Header() {
   useEffect(() => {

@@ -22,7 +22,6 @@ export default function Contact() {
         <label>Your business email<input name="e" type="email" required autoComplete="email" /></label>
         <label>What do you need?
           <select name="t">
-            <option>Monthly website care ($29 – $99/mo)</option>
             <option>New frontend development (React / Next.js)</option>
             <option>Bug fix or performance optimization</option>
             <option>Other project or consultation</option>

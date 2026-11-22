@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
-import { site, stack, stats, services, jobs, plans, why, testimonials, faqs } from '@/lib/data'
+import { site, stack, stats, services, jobs, why, faqs } from '@/lib/data'
 
 export default function Page() {
   return (
@@ -47,23 +47,6 @@ export default function Page() {
                 <span className="when">{j.when}</span><h3>{j.title}</h3>
                 {j.intro && <p className="lead" style={{ margin: 0 }}>{j.intro}</p>}
                 <ul>{j.points.map(p => <li key={p}>{p}</li>)}</ul>
-              </div>
-            ))}
-          </div>
-        </div></section>
-
-        <section id="pricing"><div className="wrap">
-          <h2>Monthly care plans</h2>
-          <p className="lead">No long-term contracts. Pause or cancel any time. Need a full build instead? Message me for a milestone-based quote.</p>
-          <div className="cards">
-            {plans.map(p => (
-              <div className={`card price${p.popular ? ' pop' : ''}`} key={p.name}>
-                {p.popular && <span className="tag">Most popular</span>}
-                <h3>{p.name}</h3>
-                <div className="amt">${p.price}<small> / month</small></div>
-                <p>{p.desc}</p>
-                <ul>{p.items.map(i => <li key={i}>{i}</li>)}</ul>
-                <a className={`btn${p.popular ? ' main' : ''}`} href="#contact">Choose {p.name.split(' ')[0]}</a>
               </div>
             ))}
           </div>
