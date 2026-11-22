@@ -74,14 +74,6 @@ export default function Page() {
           <div className="why">{why.map(([t, d]) => <div key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
         </div></section>
 
-        <section id="testimonials"><div className="wrap">
-          <h2>What clients say</h2>
-          <div className="cards">
-            {testimonials.map(([q, n, r]) => (
-              <div className="card" key={n}><p className="quote">“{q}”</p><div className="who"><b>{n}</b>{r}</div></div>
-            ))}
-          </div>
-        </div></section>
 
         <section id="faq"><div className="wrap">
           <h2>Frequently asked questions</h2>

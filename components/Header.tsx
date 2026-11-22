@@ -22,6 +22,7 @@ export default function Header() {
         <a className="logo" href="#home"><i>{site.initials}</i>{site.name}</a>
         <nav aria-label="Main">{links.map(([id, l]) => <a key={id} href={`#${id}`}>{l}</a>)}</nav>
         <button id="theme" onClick={toggle} aria-label="Toggle light and dark theme">◐</button>
+        <a className="btn sm" href={site.resume} download="Mahesh_Nagar_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         <a className="btn main sm" href="#contact">Let’s talk</a>
       </div>
     </header>

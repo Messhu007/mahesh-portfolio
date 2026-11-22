@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useRef } from 'react'
+import { site } from '@/lib/data'
 
 const code = `<span class="c">// fast by default</span>
 <span class="k">export default function</span> <span class="f">Hero</span>() {
@@ -38,7 +39,12 @@ export default function Hero() {
           <h1>I Design & Build Modern Websites That  <mark>Make an Impact.</mark></h1>
           <h2 className='marginTop'>Creative Design. Clean Code. Responsive Experiences.</h2>
           <p className="lead">I'm a Frontend Developer and Web Designer specializing in creating modern, responsive, and user-friendly websites. I turn ideas into engaging digital experiences using the latest web technologies, with a strong focus on design, performance, and functionality.</p>
-          <div className="cta"><a className="btn main" href="#work">See my projects</a><a className="btn" href="#pricing">Care plans from $29/mo</a></div>
+          <div className="cta">
+            <a className="btn main" href="#work">See my projects</a>
+            <a className="btn" href={site.resume} download="Mahesh_Nagar_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              📄 Download Resume
+            </a>
+          </div>
           <ul className="trust"><li>Responsive Design</li><li>Clean Code</li><li>User-Friendly UI</li><li>Website Optimization</li></ul>
         </div>
         <div className="dev" aria-label="Code and Lighthouse scores preview">

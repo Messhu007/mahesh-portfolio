@@ -5,6 +5,7 @@ export const site = {
   email: 'mahesh.nagar2210@gmail.com',
   linkedin: 'https://www.linkedin.com/in/mahesh-nagar-b7b980251',
   github: 'https://github.com/Messhu007',
+  resume: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/Mahesh_Nagar_Resume.pdf`,
 }
 
 export const stack = ['HTML5', 'CSS3', 'BOOTSTRAP', 'TAILWIND', 'JAVASCRIPT', 'JQUERY', 'WORDPRESS CUSTOMIZATION', 'REACTJS', 'NEXTJS', 'FIGMA', 'CANVA', 'RESPONSIVE DESIGN', 'WEBSITE OPTIMIZATION', 'PSD TO HTML', 'PSD TO WORDPRESS']
